@@ -1,0 +1,51 @@
+.header {
+  height: 100px;
+}
+
+.card-img-top {
+  height: 250px;
+  width: 180px;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.icon-img {
+  height: 250px;
+  width: 220px;
+  display: flex;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.button-add {
+  height: 560px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.button-add:hover {
+  background-color: #d4dbd4;
+  /* Green */
+  color: white;
+}
+
+.movie-card {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  max-width: 300px;
+  width: 300px;
+}
+
+.movie-card.card {
+  height: 560px;
+}
+
+.card-footer-badge {
+  font-size: 1rem;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+}
