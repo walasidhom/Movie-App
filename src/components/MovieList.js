@@ -23,10 +23,18 @@ const MovieList = (props) => {
     
     return (
         <div className="card-deck">
+            
             {
-                search().map(movie => <MovieCard key={movie.id} movie={movie} />)
+                search().map(movie => {
+                    return (
+                        <div style={{ padding: '15px' }}>
+                            <MovieCard key={movie.id} movie={movie} />
+                        </div>)
+                })
             }
-            <AddMovie movieList={props.movieList} setMovieList={props.setMovieList} />
+            <div style={{ padding: '15px' }}>
+                <AddMovie movieList={props.movieList} setMovieList={props.setMovieList} />
+            </div>
         </div>
     )
     

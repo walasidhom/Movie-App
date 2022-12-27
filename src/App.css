@@ -35,10 +35,12 @@
   margin-bottom: 10px;
   max-width: 300px;
   width: 300px;
+  
 }
 
 .movie-card.card {
   height: 560px;
+  
 }
 
 .card-footer-badge {
